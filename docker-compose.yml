@@ -12,7 +12,7 @@ services:
     environment:
       - BASE_URL=http://localhost:3001
       - DATABASE_URL=postgresql://nuvorodbuser:do6QV44hVqR6fQj@nuvoro-db-urnd8a:5432/planka
-      - ONLY_ALLOW_ORIGINS=https://project-management-planka-mlnsi0-ffebbe-176-9-93-92.traefik.me
+      - ONLY_ALLOW_ORIGINS=http://176.9.93.92/
 
       # Optionally store the database password in secrets:
       # - DATABASE_URL=postgresql://postgres:$${DATABASE_PASSWORD}@postgres/planka
